@@ -94,7 +94,7 @@ const CoffeeMenu = () => {
                 alt={item.name}
                 className="w-[100%] h-[90%] rounded-[20px] border-2 border-pink-200"
               />
-              <button className="text-xl border-2 border-pink-500 font-bold rounded-[10px] left-[10%] z-999 absolute bottom-0 w-full bg-red-100 text-red-500 font-semibold py-1 px-4 hover:bg-red-200 w-[80%] p-8 h-[60px]">
+              <button className="text-xl border-2 border-pink-500 font-bold rounded-[10px] left-[10%] right-[10%] z-999 absolute bottom-0 w-full bg-red-100 text-red-500 font-semibold py-1 px-4 hover:bg-red-200 w-[80%] p-8 h-[60px]">
                 ADD
                 <p className="text-4xl font-bold text-pink-500 absolute top-[-6px] right-[6px]">
                   +
