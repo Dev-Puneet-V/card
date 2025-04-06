@@ -28,7 +28,7 @@ const CoffeeCard = ({
 
         <h2 className="text-2xl font-bold text-gray-800 mb-2">{name}</h2>
 
-        <p className="text-gray-600 text-sm max-w-[90%]">
+        <p className="text-gray-500 text-lg max-w-[90%]">
           {showMore ? description : `${description.slice(0, 80)}... `}
           <button
             onClick={() => setShowMore(!showMore)}
